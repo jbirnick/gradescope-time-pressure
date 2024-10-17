@@ -2,7 +2,7 @@
   "description": "Time-pressure yourself when grading with Gradescope",
   "manifest_version": 3,
   "name": "Gradescope Time Pressure",
-  "version": "1.0",
+  "version": "0.1.0",
   "homepage_url": "https://github.com/jbirnick/gradescope-time-pressure",
   "icons": {
     "16": "icons/icon-16.png",
