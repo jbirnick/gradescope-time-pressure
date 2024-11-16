@@ -1,4 +1,9 @@
 {
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "grade-time-pressure@jbirnick.net"
+    }
+  },
   "description": "Time-pressure yourself when grading with Gradescope",
   "manifest_version": 3,
   "name": "Gradescope Time Pressure",

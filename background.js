@@ -3,6 +3,6 @@ browser.webNavigation.onHistoryStateUpdated.addListener(function(details) {
   browser.tabs.sendMessage(details.tabId, {
     action: 'yourhistoryjustgotupdated'
   });
-}, { url: [{ urlMatches: '.*' }] }); // TODO adjust URL filter
+}, { url: [{ urlPrefix: 'https://www.gradescope.com/', urlSuffix: '/grade' }] });
 
 
